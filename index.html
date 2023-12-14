@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Psychic Game</title>
+    <link href="./psychic.css" rel="stylesheet" />
+    <link href="./reset.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>The Psychic Game</h1>
+
+      <p>Can you guess the magical letter?</p>
+
+      <div id="result" class="result"></div>
+
+      <p><span id="win">0</span></p>
+      <p><span id="lose">0</span></p>
+      <p><span id="optionsLeft">10</span></p>
+      <p id="yourOptions">Your Guesses:</p>
+
+      <button onclick="resetGame()">Play Again</button>
+    </div>
+    <script src="./psychic.js"></script>
+  </body>
+</html>

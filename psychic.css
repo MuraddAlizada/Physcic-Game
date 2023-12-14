@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(to right, #5533ff, #1e1466);
+    font-family: "Arial", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .box {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .box:hover {
+    transform: scale(1.02);
+    
+  }
+  
+  .box h1 {
+    color: #ff8800;
+    font-size: 64px;
+    font-style: oblique;
+    margin-bottom: 20px;
+  }
+  
+  .box p {
+    
+    margin: 10px 0;
+    font-size: 20px;
+    color: #ff8800;
+  }
+  
+  #yourOptions, #optionsLeft, #win ,#lose {
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .result {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #ff8800;
+  }
+  
+  .box button {
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box button:hover {
+    background-color: #cc6600;
+  }
+  
